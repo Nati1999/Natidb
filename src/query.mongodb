@@ -1,0 +1,3 @@
+use ("sample_trainig")
+
+db.zips.find({ states: "NY" })
