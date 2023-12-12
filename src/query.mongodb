@@ -1,3 +1,3 @@
-use ("sample_trainig")
-
-db.zips.find({ states: "NY" })
+use ("sample_training")
+//natii 
+db.zips.find ({ state: "NY" }).count()
