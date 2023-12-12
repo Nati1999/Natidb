@@ -1,0 +1,23 @@
+use("espoch_store")
+db.paises.drop()
+db.paises.insertMany([
+{
+    _id:1,
+    name:"Ecuador",
+    price:1200
+},
+{
+    _id:2,
+    name:"Brasil",
+    price:1300
+},
+{
+    _id:3,
+    name:"rusia",
+    price:1400
+},  
+{
+    ordered:false,
+}
+])
+db.paises.find()

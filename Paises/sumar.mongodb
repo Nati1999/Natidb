@@ -1,0 +1,14 @@
+use("espoch_store")
+db.paises.updateOne(
+        //query
+        {_id:3},
+        //change
+        {
+            $inc:{
+                
+                price:100,
+              
+            }
+        }
+)
+db.paises.find()

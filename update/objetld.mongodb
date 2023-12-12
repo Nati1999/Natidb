@@ -1,0 +1,14 @@
+use("espoch_store")
+db.productos.updateOne(
+    //query
+    {_id:3},
+    //change
+    {
+        $set:{
+            name:'change',
+            price:4000,
+            tipo:'juguete'
+        }
+    }
+)
+db.productos.find()

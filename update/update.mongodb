@@ -1,0 +1,10 @@
+use("espoch_store")
+db.productos.updataOne(
+    {_id:4},
+    {
+        $set:{
+            name:'change name'
+        }
+    }
+
+)
